@@ -9,5 +9,6 @@
 <body>
 	<h1>Hello World</h1>
 	<h2>Hello World Again to check the commit</h2>
+	<h3>Hello from the third commit</h3>
 </body>
 </html>
