@@ -7,8 +7,25 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<h2>Hello World Again to check the commit</h2>
-	<h3>Hello from the third commit</h3>
+	 <form action ="login">
+	 	<table>
+	 	<tr>
+	 		<td>user name</td>
+	 		<td><input type ="text" name ="username"/></td>
+	 	</tr>
+	 	<tr>
+	 		<td>passwrod</td>
+	 		<td><input type="password" name="password"/></td>
+	 	</tr>	
+	 	<tr>
+	 		<td>
+	 			
+	 		</td>
+	 		<td>
+	 			<button type="submit">Login</button>
+	 		</td>
+	 	</tr>
+	 	</table>
+	 </form>
 </body>
 </html>
