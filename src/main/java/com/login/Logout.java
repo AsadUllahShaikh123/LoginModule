@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 @WebServlet("/logout")
-public class Logout extends HttpServlet{
+public class Logout extends HttpServlet{	
 
-	public void doGet(HttpServletRequest request , HttpServletResponse response) throws IOException {
+	public void doPost(HttpServletRequest request , HttpServletResponse response) throws IOException {
 		HttpSession session = request.getSession();
 		session.removeAttribute("username");
 		session.invalidate();
